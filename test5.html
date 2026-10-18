@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
+<meta name="description" content="준규디아에 오신 것을 환영합니다. 준규의 이야기와 두 가지 게임을 만나보세요.">
+<link rel="canonical" href="https://junkyu-ten.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="준규디아 · Kingdom of Junkyu">
+<meta property="og:title" content="준규디아 · Kingdom of Junkyu">
+<meta property="og:description" content="준규디아에 오신 것을 환영합니다. 준규의 이야기와 두 가지 게임을 만나보세요.">
+<meta property="og:url" content="https://junkyu-ten.vercel.app/">
+<meta property="og:image" content="https://junkyu-ten.vercel.app/assets/junkyu-director.png">
+<meta property="og:image:secure_url" content="https://junkyu-ten.vercel.app/assets/junkyu-director.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="700">
+<meta property="og:image:height" content="700">
+<meta property="og:image:alt" content="준규디아 · Kingdom of Junkyu 대표 사진">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="준규디아 · Kingdom of Junkyu">
+<meta name="twitter:description" content="준규디아에 오신 것을 환영합니다. 준규의 이야기와 두 가지 게임을 만나보세요.">
+<meta name="twitter:image" content="https://junkyu-ten.vercel.app/assets/junkyu-director.png">
+
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>
@@ -21,19 +40,9 @@
             z-index: 9999; 
         }
     </style>
-  <meta property="og:title" content="JUNKYU">
-   <meta property="og:description" content="LEFT">
-  <meta property="og:image" content="/assets/junkyu-director.png">
-
-<meta property="og:title" content="JUNKYU">
-<meta property="og:description" content="LEFT">
-<meta property="og:image" content="https://ibb.co/7JL5nm4f">
-<meta property="og:url" content="https://ibb.co/7JL5nm4f">
-<meta name="twitter:card" content="summary_large_image">
-
-      <link rel="icon" href="/assets/junkyu-director.png">
+  <link rel="icon" href="/assets/junkyu-director.png">
       <meta charset="utf-8">
-      <title>JUNKYE</title>
+      <title>준규디아 · Kingdom of Junkyu</title>
       <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 <style>
   body {
@@ -112,6 +121,18 @@
 #photo-viewer .photo-close:focus-visible{outline:3px solid white;outline-offset:4px;}
 @media(max-width:600px){.refreshed-photo{max-width:96%;}.refreshed-photo.featured-face{max-width:100%;width:680px;}#photo-viewer img{max-height:78dvh;}}
 @media(prefers-reduced-motion:reduce){#photo-viewer,#photo-viewer .photo-stage,.zoomable-photo{transition:none;}}
+</style>
+<style id="game-link-buttons">
+.original-game-links{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 12px 22px;flex-wrap:wrap;}
+.original-game-links a{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:11px 22px;border:1px solid #8c372e;border-radius:7px;background:linear-gradient(180deg,#fff8eb,#f8ecd4);color:#852b24;text-decoration:none;font-family:inherit;font-size:16px;font-weight:700;line-height:1.5;box-shadow:0 3px 0 #d6b58c,0 5px 14px #55201612;transition:transform .18s,box-shadow .18s,background .18s;}
+.original-game-links a:last-child{border-color:#454545;color:#303030;background:linear-gradient(180deg,#fafafa,#e7e5e2);box-shadow:0 3px 0 #aaa39b,0 5px 14px #11111112;}
+.original-game-links a::after{content:'↗';font-family:system-ui;font-size:18px;opacity:.7;}
+.original-game-links a:hover{transform:translateY(-2px);box-shadow:0 5px 0 #d6b58c,0 8px 20px #55201622;}
+.original-game-links a:last-child:hover{box-shadow:0 5px 0 #aaa39b,0 8px 20px #11111122;}
+.original-game-links a:active{transform:translateY(2px);box-shadow:none;}
+.original-game-links a:focus-visible{outline:3px solid #ae7d33;outline-offset:5px;}
+@media(max-width:600px){.original-game-links{gap:12px;padding-inline:4px}.original-game-links a{font-size:13px;padding:11px 12px;gap:8px;min-height:46px;}}
+@media(prefers-reduced-motion:reduce){.original-game-links a{transition:none;}}
 </style>
 </head>
 <body bgcolor="black" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" background="data:image/jpeg;base64,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">
